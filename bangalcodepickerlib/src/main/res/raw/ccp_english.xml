@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <messages>
+        <ccp_dialog_title translation="Select a country" />
+        <ccp_dialog_search_hint_message translation="Search..." />
+        <ccp_dialog_no_result_ack_message translation="Results not found" />
+    </messages>
+
+    <countries>
+        <country
+            name="Bangladesh"
+            english_name="Bangladesh"
+            name_code="bd"
+            phone_code="880" />
+        <country
+            name="United Kingdom"
+            english_name="United Kingdom"
+            name_code="gb"
+            phone_code="44" />
+        <country
+            name="India"
+            english_name="India"
+            name_code="in"
+            phone_code="91" />
+
+        <country
+            name="United States"
+            english_name="United States (USA)"
+            name_code="us"
+            phone_code="1" />
+    </countries>
+</data>
