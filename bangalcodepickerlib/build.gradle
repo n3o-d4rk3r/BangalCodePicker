@@ -36,3 +36,15 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
     implementation 'com.github.n3o-d4rk3r:BangalPhoneLib:1.0'
 }
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                groupId = 'com.github.n3o-d4rk3r'
+                artifactId = 'bangalcodepickerlib'
+                version = '1.1'
+                artifact(bundleReleaseAar)
+            }
+        }
+    }
+}
