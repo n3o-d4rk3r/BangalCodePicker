@@ -1,6 +1,5 @@
 package bd.com.bangal.bangalcodepickerlib;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
@@ -33,7 +32,6 @@ import bd.com.bangal.bangalcodepickerlib.recyclerviewfastscroll.FastScroller;
 /**
  * Created by hbb20 on 11/1/16.
  */
-@SuppressLint("SoonBlockedPrivateApi")
 class CountryCodeDialog {
     private static final Field
             sEditorField,
@@ -78,7 +76,6 @@ class CountryCodeDialog {
         openCountryCodeDialog(codePicker, null);
     }
 
-    @SuppressLint("WrongConstant")
     public static void
     openCountryCodeDialog(final CountryCodePicker codePicker, final String countryNameCode) {
         context = codePicker.getContext();

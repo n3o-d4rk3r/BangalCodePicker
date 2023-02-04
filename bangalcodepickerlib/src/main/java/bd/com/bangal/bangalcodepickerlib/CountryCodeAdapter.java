@@ -1,6 +1,5 @@
 package bd.com.bangal.bangalcodepickerlib;
 
-import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Context;
 import android.text.Editable;
@@ -221,7 +220,6 @@ class CountryCodeAdapter extends RecyclerView.Adapter<CountryCodeAdapter.Country
         LinearLayout linearFlagHolder;
         View divider;
 
-        @SuppressLint("WrongConstant")
         public CountryCodeViewHolder(View itemView) {
             super(itemView);
             relativeLayout_main = (RelativeLayout) itemView;

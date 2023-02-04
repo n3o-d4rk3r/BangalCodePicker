@@ -4,15 +4,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/countryCodeHolder"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    >
+    android:layout_height="wrap_content">
 
     <RelativeLayout
         android:id="@+id/rlClickConsumer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="@dimen/ccp_padding"
-        >
+        android:padding="@dimen/ccp_padding">
 
         <LinearLayout
             android:id="@+id/linear_flag_holder"
@@ -21,15 +19,13 @@
             android:layout_centerVertical="true"
             android:layout_gravity="center_vertical"
             android:layout_marginEnd="@dimen/google_1x"
-            android:layout_marginRight="@dimen/google_1x"
-            >
+            android:layout_marginRight="@dimen/google_1x">
 
             <LinearLayout
                 android:id="@+id/linear_flag_border"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@android:color/transparent"
-                >
+                android:background="@android:color/transparent">
 
                 <ImageView
                     android:id="@+id/image_flag"
@@ -53,8 +49,7 @@
             android:singleLine="true"
             android:text="(BD) +880"
             android:textColor="@android:color/black"
-            android:textSize="18sp"
-            />
+            android:textSize="18sp"/>
 
         <ImageView
             android:id="@+id/imageView_arrow"

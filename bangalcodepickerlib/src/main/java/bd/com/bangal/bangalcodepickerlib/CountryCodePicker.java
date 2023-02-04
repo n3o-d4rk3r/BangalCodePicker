@@ -40,12 +40,15 @@ import bd.com.bangal.bangalphone.PhoneNumberUtil;
 import bd.com.bangal.bangalphone.Phonenumber;
 
 
+/**
+ * Created by hbb20 on 11/1/16.
+ */
 public class CountryCodePicker extends RelativeLayout {
 
     static final int DEFAULT_UNSET = -99;
     static String TAG = "CCP";
     static String BUNDLE_SELECTED_CODE = "selectedCode";
-    static int LIB_DEFAULT_COUNTRY_CODE = 880;
+    static int LIB_DEFAULT_COUNTRY_CODE = 88;
     private static int TEXT_GRAVITY_LEFT = -1, TEXT_GRAVITY_RIGHT = 1, TEXT_GRAVITY_CENTER = 0;
     private static String ANDROID_NAME_SPACE = "http://schemas.android.com/apk/res/android";
     private CCPTalkBackTextProvider talkBackTextProvider = new InternalTalkBackTextProvider();
@@ -2451,42 +2454,8 @@ public class CountryCodePicker extends RelativeLayout {
         ARABIC("ar"),
         BASQUE("eu"),
         BENGALI("bn"),
-        CHINESE_SIMPLIFIED("zh", "CN", "Hans"),
-        CHINESE_TRADITIONAL("zh", "TW", "Hant"),
-        CZECH("cs"),
-        DANISH("da"),
-        DUTCH("nl"),
-        ENGLISH("en"),
-        FARSI("fa"),
-        FRENCH("fr"),
-        GERMAN("de"),
-        GREEK("el"),
-        GUJARATI("gu"),
-        HEBREW("iw"),
-        HINDI("hi"),
-        HUNGARIAN("hu"),
-        INDONESIA("in"),
-        ITALIAN("it"),
-        JAPANESE("ja"),
-        KAZAKH("kk"),
-        KOREAN("ko"),
-        MARATHI("mr"),
-        POLISH("pl"),
-        PORTUGUESE("pt"),
-        PUNJABI("pa"),
-        RUSSIAN("ru"),
-        SERBIAN("sr"),
-        SLOVAK("sk"),
-        SLOVENIAN("si"),
-        SPANISH("es"),
-        SWEDISH("sv"),
-        TAGALOG("tl"),
-        THAI("th"),
-        TURKISH("tr"),
-        UKRAINIAN("uk"),
-        URDU("ur"),
-        UZBEK("uz"),
-        VIETNAMESE("vi");
+
+        ENGLISH("en");
 
         private String code;
         private String country;

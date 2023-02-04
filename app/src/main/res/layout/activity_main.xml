@@ -8,10 +8,10 @@
     tools:context=".MainActivity">
 
         <bd.com.bangal.bangalcodepickerlib.CountryCodePicker
-            android:id="@+id/ccp_loadFullNumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            app:ccp_showFlag="false"
             app:ccp_defaultNameCode="BD"
-            app:ccp_countryPreference="BD,IN,GB,US"/>
+            app:ccp_countryPreference="BD"/>
 
 </RelativeLayout>
