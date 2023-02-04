@@ -20,6 +20,7 @@ dependencyResolutionManagement {
     }
 }</pre>
 
+
 ### Old Project:
 <pre>	allprojects {
 		repositories {
