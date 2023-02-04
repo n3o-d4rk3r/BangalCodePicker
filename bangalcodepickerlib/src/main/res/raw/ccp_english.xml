@@ -20,5 +20,16 @@
             name_code="IN"
             phone_code="91" />
 
+        <country
+            name="United Kingdom"
+            english_name="United Kingdom"
+            name_code="gb"
+            phone_code="44" />
+
+        <country
+            name="United States"
+            english_name="United States (USA)"
+            name_code="us"
+            phone_code="1" />
     </countries>
 </data>
