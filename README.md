@@ -1,7 +1,6 @@
 # BangalCodePicker-Only BD, IN, UK, US Country Picker
 #### Add it in your root build.gradle at the end of repositories:
 <br>
-
 ### Update Project(settings.gradle):
 
   
