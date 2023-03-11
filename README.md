@@ -59,7 +59,7 @@ dependencyResolutionManagement {
   
   ### <h2>Step 2.</h2> Add the dependency
   
-  <pre>	dependencies {
+  <pre>dependencies {
 	          implementation 'com.github.n3o-d4rk3r:BangalCodePicker:1.0'
 	}</pre>
 
