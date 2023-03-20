@@ -62,3 +62,29 @@ dependencyResolutionManagement {
 	          implementation 'com.github.n3o-d4rk3r:BangalCodePicker:1.0'
 	}</pre>
 
+
+
+
+
+
+### Tags:
+<div class="my-3">
+      <div class="f6">
+      <a data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:android" href="/topics/android" title="Topic: android" data-view-component="true" class="topic-tag topic-tag-link">
+  android
+</a>
+      <a data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:library-android" href="/topics/library-android" title="Topic: library-android" data-view-component="true" class="topic-tag topic-tag-link">
+  library-android
+</a>
+      <a data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:bangal-code-picker" href="/topics/bangal-code-picker" title="Topic: bangal-code-picker" data-view-component="true" class="topic-tag topic-tag-link">
+  bangal-code-picker
+</a>
+      <a data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:bd-in-uk-us" href="/topics/bd-in-uk-us" title="Topic: bd-in-uk-us" data-view-component="true" class="topic-tag topic-tag-link">
+  bd-in-uk-us
+</a>
+      <a data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:bd-in-us--uk-android-library" href="/topics/bd-in-us--uk-android-library" title="Topic: bd-in-us--uk-android-library" data-view-component="true" class="topic-tag topic-tag-link">
+  bd-in-us--uk-android-library
+</a>
+  </div>
+
+  </div>
