@@ -2,7 +2,6 @@
 ### Add it in your root build.gradle at the end of repositories:
 
 ### Update Project(settings.gradle):
-
   
 <p dir="auto">Step 1. Add it in your root <b>settings.gradle</b> at the end of repositories:</p>
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>pluginManagement {
