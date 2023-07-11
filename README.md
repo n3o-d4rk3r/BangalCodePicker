@@ -45,7 +45,6 @@ dependencyResolutionManagement {
   </div></div>
 
 
-
 ### Old Project:
 <pre>	allprojects {
 		repositories {
