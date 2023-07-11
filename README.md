@@ -44,7 +44,7 @@ dependencyResolutionManagement {
     </clipboard-copy>
   </div></div>
 
- 
+
 
 ### Old Project:
 <pre>	allprojects {
